@@ -583,6 +583,9 @@ main {
 	.slider {
 		position: relative;
 		height: 1200px;
+		@include media-max-width(800){
+			height: 900px;
+		}
 
 		.scroll{
 			position: relative;
@@ -694,6 +697,9 @@ main {
 			left: 50%;
 			transform: translate(-50%, -50%);
 			width: 35%;
+			@include media-max-width(800){
+				top: 45%;
+			}
 			@include media-max-width(700){
 				width: 60%;
 			}
@@ -725,6 +731,7 @@ main {
 				
 					button {
 						margin-top: 70px;
+						margin-right: 10px;
 						display: block;
 						width: 1rem;
 						height: 1rem;

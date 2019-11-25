@@ -3,6 +3,10 @@
 		scroll-behavior: smooth;
 		box-sizing: border-box;
 		font-family: $main_font, Verdana, Geneva, Tahoma, sans-serif;
+
+		body i {
+			font-family:'FontAwesome'!important;
+			}
 	}
 
 	*,
