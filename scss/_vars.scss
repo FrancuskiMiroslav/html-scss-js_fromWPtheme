@@ -1,0 +1,17 @@
+$main_font: "Roboto", sans-serif;
+$secondary_font: "Anton", cursive;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic");
+
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap&subset=latin-ext');
+
+$foam: #dbfcfa;
+$kidnapper: #d9e7cd;
+$mineShaft: #282828;
+
+$font_clr-primary: #000000;
+$font_clr-secondary: #737373;
+
+$primary_clr: $foam;
+$secondary_clr: $kidnapper;
+$tertiary_clr: $mineShaft;
